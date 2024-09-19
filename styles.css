@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #1a2c42;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header img {
+    width: 150px;  /* Reducing the size of the logo */
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 100%; /* Circular shape for a neat look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease;
+}
+
+header img:hover {
+    transform: scale(1.05); /* Slight hover effect to add some interactivity */
+}
+
+header h1 {
+    font-size: 1.8em;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #4caf50;
+}
+
+
+/* Hero Section */
+.hero-section {
+    background-color: #1a2c42;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.hero-section h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.cta-button:hover {
+    background-color: #388e3c;
+}
+
+/* Features Section */
+.features, .trails-section {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features h3, .trails-section h3 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.features-grid, .trails-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature-card, .trail-card {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    max-width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover, .trail-card:hover {
+    transform: translateY(-10px);
+}
+
+.feature-card img, .trail-card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h4, .trail-card h4 {
+    margin-top: 15px;
+    font-size: 1.5em;
+    color: #1a2c42;
+}
+
+.feature-card p, .trail-card p {
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #1a2c42;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #4caf50;
+}
